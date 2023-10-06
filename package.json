@@ -6,13 +6,11 @@
   "scripts": {
     "start": "electron ."
   },
-  "devDependencies": {
-    "electron": "^19.0.4"
-  },
   "dependencies": {
-    "dotenv": "^16.0.1",
-    "jquery": "^3.6.0",
-    "twitch-auth": "^4.6.7",
-    "twitch-chat-client": "^4.6.7"
+    "dotenv": "^16.3.1",
+    "jquery": "^3.7.1",
+    "@twurple/auth": "^7.0.3",
+    "@twurple/chat": "^7.0.3",
+    "electron": "^26.3.0"
   }
 }

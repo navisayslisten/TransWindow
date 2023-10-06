@@ -1,6 +1,6 @@
 const { app, BrowserWindow } = require('electron')
-const { ChatClient} = require('twitch-chat-client');
-const { RefreshableAuthProvider, StaticAuthProvider } = require('twitch-auth');
+const { ChatClient } = require('@twurple/chat');
+const { RefreshableAuthProvider, StaticAuthProvider } = require('@twurple/auth');
 const { promises } = require('fs');
 
 const tokenFile = './tokens.json';
@@ -29,7 +29,8 @@ async function chatServer(window) {
     }
   );
 
-  const chatClient = new ChatClient(authProvider, {
+  const chatClient = new ChatClient({
+    authProvider: authProvider,
     channels: [channel],
   });
 

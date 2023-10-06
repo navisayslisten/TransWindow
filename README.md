@@ -1,11 +1,13 @@
 # TransWindow
 
-The future is now but you can't even see it
+The future is now, but you can't even see it!
+
+... It's a transparent window demo in Electron for a friend. Useful for streaming purposes. Use as you like.
 
 ## SETUP
 Create a .env file with the following variables:
 ```
-CHANNEL=diggitysc
+CHANNEL=
 CLIENTID=
 CLIENTSECRET=
 ACCESS_TOKEN=
